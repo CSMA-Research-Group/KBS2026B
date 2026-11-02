@@ -1,0 +1,13 @@
+{
+  "schema": "adaptive-experiment-resources-v1",
+  "reserve_physical_cores": 2,
+  "reserve_memory_mib": 8192,
+  "worker_address_space_mib": 2048,
+  "throughput_nice": 0,
+  "thread_libraries_per_worker": 1,
+  "maximum_gpus": 2,
+  "gpu_headroom_mib": 2048,
+  "foreign_gpu_process_policy": "do_not_preempt_or_share_without_explicit_ownership",
+  "timing_mode": "one_measurement_worker_and_no_competing_owned_throughput_jobs",
+  "timing_requirement": "record process/thread CPU and monotonic wall clocks; zero CPU intervals are invalid, not speedups; validate effective resolution and amortize short operations in a separately frozen measurement protocol"
+}

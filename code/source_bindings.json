@@ -1,0 +1,680 @@
+{
+  "schema": 1,
+  "scope": "Selected source dependencies for the 2026-10-22 experiment; operational path changes are recorded without altering scientific settings.",
+  "files": [
+    {
+      "path": "code/adaptive_experiments/__init__.py",
+      "original_frozen_sha256": "b6d639b96b7dfb87a2e3b2965b3a6a5dffe42d2bda96022c2611e5bbd0994653",
+      "input_snapshot_sha256": "b6d639b96b7dfb87a2e3b2965b3a6a5dffe42d2bda96022c2611e5bbd0994653",
+      "packaged_sha256": "b6d639b96b7dfb87a2e3b2965b3a6a5dffe42d2bda96022c2611e5bbd0994653",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/adaptive_experiments/common.py",
+      "original_frozen_sha256": "5a109e5759524b21b2cc9ee2741f7d4849af93d8c3aed88f62bed39ac18e96ee",
+      "input_snapshot_sha256": "5a109e5759524b21b2cc9ee2741f7d4849af93d8c3aed88f62bed39ac18e96ee",
+      "packaged_sha256": "d085af0a3dfef7361492d30a424749a675e1bb224b427cfe5df6471e8cf376d1",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "Retained the stable serialization re-export used by the selected dependents; removed unused legacy scheduler helpers. The serialization implementation is unchanged."
+    },
+    {
+      "path": "code/adaptive_experiments/protocol.py",
+      "original_frozen_sha256": "d7f21f5517fbde2108441bcd5a353c61b80e8625d4366e9456e7670b33990a27",
+      "input_snapshot_sha256": "d7f21f5517fbde2108441bcd5a353c61b80e8625d4366e9456e7670b33990a27",
+      "packaged_sha256": "d7f21f5517fbde2108441bcd5a353c61b80e8625d4366e9456e7670b33990a27",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/configs/experiment_resources.json",
+      "original_frozen_sha256": "b78de219cc6e184477d99ece5873bd25baa401ecfd49a6f4a2bffe18e6650105",
+      "input_snapshot_sha256": "b78de219cc6e184477d99ece5873bd25baa401ecfd49a6f4a2bffe18e6650105",
+      "packaged_sha256": "b78de219cc6e184477d99ece5873bd25baa401ecfd49a6f4a2bffe18e6650105",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/counterfactual_pilot/__init__.py",
+      "original_frozen_sha256": "01ca8f0d1a62c9c7c64646829c541c49c50168d2752af309e49a3e23ba52872b",
+      "input_snapshot_sha256": "01ca8f0d1a62c9c7c64646829c541c49c50168d2752af309e49a3e23ba52872b",
+      "packaged_sha256": "01ca8f0d1a62c9c7c64646829c541c49c50168d2752af309e49a3e23ba52872b",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/counterfactual_pilot/core.py",
+      "original_frozen_sha256": "e4266509023f37e65da73650a4de82a8a04a07e5b531619a83bccd075568e57a",
+      "input_snapshot_sha256": "e4266509023f37e65da73650a4de82a8a04a07e5b531619a83bccd075568e57a",
+      "packaged_sha256": "e4266509023f37e65da73650a4de82a8a04a07e5b531619a83bccd075568e57a",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/counterfactual_pilot/solver.py",
+      "original_frozen_sha256": "18b3d11940a9161c66950aa644c44dae037f711a6f29b5f47400a2751cfe982a",
+      "input_snapshot_sha256": "18b3d11940a9161c66950aa644c44dae037f711a6f29b5f47400a2751cfe982a",
+      "packaged_sha256": "18b3d11940a9161c66950aa644c44dae037f711a6f29b5f47400a2751cfe982a",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/counterfactual_pilot/validation.py",
+      "original_frozen_sha256": "cc4c9716c44e4a8f780027868c339463c98e8693850ece6649b01f7b886125a6",
+      "input_snapshot_sha256": "cc4c9716c44e4a8f780027868c339463c98e8693850ece6649b01f7b886125a6",
+      "packaged_sha256": "cc4c9716c44e4a8f780027868c339463c98e8693850ece6649b01f7b886125a6",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/e3_cpu_correctness/__init__.py",
+      "original_frozen_sha256": "e01d51d2d842927ad51affae37ac05ec0688c0925330b1cccab62a84289a6078",
+      "input_snapshot_sha256": "e01d51d2d842927ad51affae37ac05ec0688c0925330b1cccab62a84289a6078",
+      "packaged_sha256": "e01d51d2d842927ad51affae37ac05ec0688c0925330b1cccab62a84289a6078",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/e3_cpu_correctness/core.py",
+      "original_frozen_sha256": "3eb51a511f4230439478da1ae7198c168385a057a8c5e9e70029bf7380f4355c",
+      "input_snapshot_sha256": "3eb51a511f4230439478da1ae7198c168385a057a8c5e9e70029bf7380f4355c",
+      "packaged_sha256": "3eb51a511f4230439478da1ae7198c168385a057a8c5e9e70029bf7380f4355c",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/experiment_resources.py",
+      "original_frozen_sha256": "5b28056dd88baf655e482c648b5c20bbf2a433af6942e2d5f9a84d29e1a754fa",
+      "input_snapshot_sha256": "5b28056dd88baf655e482c648b5c20bbf2a433af6942e2d5f9a84d29e1a754fa",
+      "packaged_sha256": "5b28056dd88baf655e482c648b5c20bbf2a433af6942e2d5f9a84d29e1a754fa",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/gemma_direct_format/__init__.py",
+      "original_frozen_sha256": "ed3f36844830dbc55865c97a48bc14cc08f54d4ff1bd025a3fa7d3242db1ed16",
+      "input_snapshot_sha256": "ed3f36844830dbc55865c97a48bc14cc08f54d4ff1bd025a3fa7d3242db1ed16",
+      "packaged_sha256": "ed3f36844830dbc55865c97a48bc14cc08f54d4ff1bd025a3fa7d3242db1ed16",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/gemma_direct_format/protocol.py",
+      "original_frozen_sha256": "1d697da8f9c57991796937bea704d256a80b9c9b2c9e51f0116707a446381d60",
+      "input_snapshot_sha256": "1d697da8f9c57991796937bea704d256a80b9c9b2c9e51f0116707a446381d60",
+      "packaged_sha256": "1d697da8f9c57991796937bea704d256a80b9c9b2c9e51f0116707a446381d60",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage1/__init__.py",
+      "original_frozen_sha256": "9eab7c7d1d7911fdf74b04ff2d00d486258bdc04945f442b7e6ce856da6aa39f",
+      "input_snapshot_sha256": "9eab7c7d1d7911fdf74b04ff2d00d486258bdc04945f442b7e6ce856da6aa39f",
+      "packaged_sha256": "9eab7c7d1d7911fdf74b04ff2d00d486258bdc04945f442b7e6ce856da6aa39f",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage1/domain.py",
+      "original_frozen_sha256": "40a9dd212d68886acc4e3bc38d69b9ea55117e284ae2d48b70ceacf60d279e55",
+      "input_snapshot_sha256": "40a9dd212d68886acc4e3bc38d69b9ea55117e284ae2d48b70ceacf60d279e55",
+      "packaged_sha256": "40a9dd212d68886acc4e3bc38d69b9ea55117e284ae2d48b70ceacf60d279e55",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2/__init__.py",
+      "original_frozen_sha256": "e521ee7691eaeba4a2325e496291ba5ab619605a8bc40eb5c1c83475c674c0b8",
+      "input_snapshot_sha256": "e521ee7691eaeba4a2325e496291ba5ab619605a8bc40eb5c1c83475c674c0b8",
+      "packaged_sha256": "e521ee7691eaeba4a2325e496291ba5ab619605a8bc40eb5c1c83475c674c0b8",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2/domain.py",
+      "original_frozen_sha256": "2229d8017e64df141f6dc71dfd8b945d784ef70943eb81844111bbc8ab22a1a5",
+      "input_snapshot_sha256": "2229d8017e64df141f6dc71dfd8b945d784ef70943eb81844111bbc8ab22a1a5",
+      "packaged_sha256": "2229d8017e64df141f6dc71dfd8b945d784ef70943eb81844111bbc8ab22a1a5",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2/generator.py",
+      "original_frozen_sha256": "96f7a71b55c22548e0ca5e4d39444520a7fbd4ceb0d78995831db408feac4d77",
+      "input_snapshot_sha256": "96f7a71b55c22548e0ca5e4d39444520a7fbd4ceb0d78995831db408feac4d77",
+      "packaged_sha256": "96f7a71b55c22548e0ca5e4d39444520a7fbd4ceb0d78995831db408feac4d77",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2/policies.py",
+      "original_frozen_sha256": "6f2f5cb7354d7cc2ee007140837927b0d024bbbae08095b405da89e8c105e3ee",
+      "input_snapshot_sha256": "6f2f5cb7354d7cc2ee007140837927b0d024bbbae08095b405da89e8c105e3ee",
+      "packaged_sha256": "6f2f5cb7354d7cc2ee007140837927b0d024bbbae08095b405da89e8c105e3ee",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2/reference.py",
+      "original_frozen_sha256": "0fcafe279253cb95df9a72e302bfc55b8ecd9baec80327a351166258aa64cd01",
+      "input_snapshot_sha256": "0fcafe279253cb95df9a72e302bfc55b8ecd9baec80327a351166258aa64cd01",
+      "packaged_sha256": "0fcafe279253cb95df9a72e302bfc55b8ecd9baec80327a351166258aa64cd01",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2b/__init__.py",
+      "original_frozen_sha256": "371ec5da33efc5326b3b1b6b429b922846e3ec211fdb9db82a736ac17426bef8",
+      "input_snapshot_sha256": "371ec5da33efc5326b3b1b6b429b922846e3ec211fdb9db82a736ac17426bef8",
+      "packaged_sha256": "371ec5da33efc5326b3b1b6b429b922846e3ec211fdb9db82a736ac17426bef8",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2b/generator.py",
+      "original_frozen_sha256": "232cd6d18603a6963725f9a21b15aff904b3186e4b99580ad6c8fd04f0a9a54a",
+      "input_snapshot_sha256": "232cd6d18603a6963725f9a21b15aff904b3186e4b99580ad6c8fd04f0a9a54a",
+      "packaged_sha256": "232cd6d18603a6963725f9a21b15aff904b3186e4b99580ad6c8fd04f0a9a54a",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2b/policies.py",
+      "original_frozen_sha256": "982e7a55704d4b109ffc4edf8c7d943b16cfee037fa9cb0ae6edf2e297cc24ba",
+      "input_snapshot_sha256": "982e7a55704d4b109ffc4edf8c7d943b16cfee037fa9cb0ae6edf2e297cc24ba",
+      "packaged_sha256": "982e7a55704d4b109ffc4edf8c7d943b16cfee037fa9cb0ae6edf2e297cc24ba",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2c/__init__.py",
+      "original_frozen_sha256": "26d259688c8de1bffc5ca716ddbb56576b57eac6c1f4632cd0a2c368368c8385",
+      "input_snapshot_sha256": "26d259688c8de1bffc5ca716ddbb56576b57eac6c1f4632cd0a2c368368c8385",
+      "packaged_sha256": "26d259688c8de1bffc5ca716ddbb56576b57eac6c1f4632cd0a2c368368c8385",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2c/policies.py",
+      "original_frozen_sha256": "877b16cfea9e2edc659b0b33bd5f0326101bc263aeb9cf93c5342b588a7fe744",
+      "input_snapshot_sha256": "877b16cfea9e2edc659b0b33bd5f0326101bc263aeb9cf93c5342b588a7fe744",
+      "packaged_sha256": "877b16cfea9e2edc659b0b33bd5f0326101bc263aeb9cf93c5342b588a7fe744",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2c/validation.py",
+      "original_frozen_sha256": "8b7c511f10c6bddeae31cc0d9085693613eeb55c3dc19da2ef564c5988519c12",
+      "input_snapshot_sha256": "8b7c511f10c6bddeae31cc0d9085693613eeb55c3dc19da2ef564c5988519c12",
+      "packaged_sha256": "8b7c511f10c6bddeae31cc0d9085693613eeb55c3dc19da2ef564c5988519c12",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2d/__init__.py",
+      "original_frozen_sha256": "1d687a356e1db6da8465ef51bdba5a90c38abeda956101cd913986f6bae77e9f",
+      "input_snapshot_sha256": "1d687a356e1db6da8465ef51bdba5a90c38abeda956101cd913986f6bae77e9f",
+      "packaged_sha256": "1d687a356e1db6da8465ef51bdba5a90c38abeda956101cd913986f6bae77e9f",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2d/policies.py",
+      "original_frozen_sha256": "ed49faf954652f19b073105db4716ad09a375fd3c4e3139e97d58dfe1ffcaff2",
+      "input_snapshot_sha256": "ed49faf954652f19b073105db4716ad09a375fd3c4e3139e97d58dfe1ffcaff2",
+      "packaged_sha256": "ed49faf954652f19b073105db4716ad09a375fd3c4e3139e97d58dfe1ffcaff2",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage2d/validation.py",
+      "original_frozen_sha256": "61f487d631b61069451f917f2320c1b1c4ed985b055a664eb525e5ca258aa171",
+      "input_snapshot_sha256": "61f487d631b61069451f917f2320c1b1c4ed985b055a664eb525e5ca258aa171",
+      "packaged_sha256": "61f487d631b61069451f917f2320c1b1c4ed985b055a664eb525e5ca258aa171",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage3/__init__.py",
+      "original_frozen_sha256": "5a096a79f72079fa87e0d0728065241be981aa04f3652f8a7ebf42f3bc7bafd7",
+      "input_snapshot_sha256": "5a096a79f72079fa87e0d0728065241be981aa04f3652f8a7ebf42f3bc7bafd7",
+      "packaged_sha256": "5a096a79f72079fa87e0d0728065241be981aa04f3652f8a7ebf42f3bc7bafd7",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage3/protocol.py",
+      "original_frozen_sha256": "83ba02f467ea86f3139d85fa750713d7900e530d978a27c0d5151f496c2ac48e",
+      "input_snapshot_sha256": "83ba02f467ea86f3139d85fa750713d7900e530d978a27c0d5151f496c2ac48e",
+      "packaged_sha256": "83ba02f467ea86f3139d85fa750713d7900e530d978a27c0d5151f496c2ac48e",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage3/storage.py",
+      "original_frozen_sha256": "57c5ca5ac31ec514fa94730e4ddef6e8c440606cb042d1de586622e76f6da5ef",
+      "input_snapshot_sha256": "57c5ca5ac31ec514fa94730e4ddef6e8c440606cb042d1de586622e76f6da5ef",
+      "packaged_sha256": "57c5ca5ac31ec514fa94730e4ddef6e8c440606cb042d1de586622e76f6da5ef",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage3b/__init__.py",
+      "original_frozen_sha256": "0801f1eb866432a131b354bdb0e307ee8105d9401993ca5c3dc44005a026c4ee",
+      "input_snapshot_sha256": "0801f1eb866432a131b354bdb0e307ee8105d9401993ca5c3dc44005a026c4ee",
+      "packaged_sha256": "0801f1eb866432a131b354bdb0e307ee8105d9401993ca5c3dc44005a026c4ee",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage3b/protocol.py",
+      "original_frozen_sha256": "c134fa2d5659506d206bffabba7fb274420f8c41148e32bc5ca29d24b59a79e2",
+      "input_snapshot_sha256": "c134fa2d5659506d206bffabba7fb274420f8c41148e32bc5ca29d24b59a79e2",
+      "packaged_sha256": "c134fa2d5659506d206bffabba7fb274420f8c41148e32bc5ca29d24b59a79e2",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage3c/__init__.py",
+      "original_frozen_sha256": "034f413fab4ab1769ae603b8b307d22e9b7861848192762539616dd3bc33e8bc",
+      "input_snapshot_sha256": "034f413fab4ab1769ae603b8b307d22e9b7861848192762539616dd3bc33e8bc",
+      "packaged_sha256": "034f413fab4ab1769ae603b8b307d22e9b7861848192762539616dd3bc33e8bc",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/innovation_stage3c/protocol.py",
+      "original_frozen_sha256": "bfbb6eaaa5a5d996f086ebe92208f5432e6b778c0a0825308ae538b4287baa49",
+      "input_snapshot_sha256": "bfbb6eaaa5a5d996f086ebe92208f5432e6b778c0a0825308ae538b4287baa49",
+      "packaged_sha256": "bfbb6eaaa5a5d996f086ebe92208f5432e6b778c0a0825308ae538b4287baa49",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/key_validation/__init__.py",
+      "original_frozen_sha256": "4b1cc2ba16f38f24442ba4dec9f0728e94c9744a840d6fa6f013168284833e85",
+      "input_snapshot_sha256": "4b1cc2ba16f38f24442ba4dec9f0728e94c9744a840d6fa6f013168284833e85",
+      "packaged_sha256": "4b1cc2ba16f38f24442ba4dec9f0728e94c9744a840d6fa6f013168284833e85",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/key_validation/audit.py",
+      "original_frozen_sha256": "4dc67b3b2efe611a68f02c12e0b98b1b6a475ed7e2dfe02dd2834095469d9546",
+      "input_snapshot_sha256": "4dc67b3b2efe611a68f02c12e0b98b1b6a475ed7e2dfe02dd2834095469d9546",
+      "packaged_sha256": "4dc67b3b2efe611a68f02c12e0b98b1b6a475ed7e2dfe02dd2834095469d9546",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/key_validation/cases.py",
+      "original_frozen_sha256": "6fa5a648b9132124f95ced04ea8ed4ebcf5b434e0f90458e5fe552650aaf19bd",
+      "input_snapshot_sha256": "6fa5a648b9132124f95ced04ea8ed4ebcf5b434e0f90458e5fe552650aaf19bd",
+      "packaged_sha256": "6fa5a648b9132124f95ced04ea8ed4ebcf5b434e0f90458e5fe552650aaf19bd",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/key_validation/engine.py",
+      "original_frozen_sha256": "1e6355bc44829c13374616432cd4b8918b1ea5be4782b997000742b88c53f64c",
+      "input_snapshot_sha256": "1e6355bc44829c13374616432cd4b8918b1ea5be4782b997000742b88c53f64c",
+      "packaged_sha256": "1e6355bc44829c13374616432cd4b8918b1ea5be4782b997000742b88c53f64c",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/key_validation/proofs.py",
+      "original_frozen_sha256": "5e8ee8b6a67eba7cb5c3f24d59889ae7988bb22bbc81b93ba79e423fc6db2e2c",
+      "input_snapshot_sha256": "5e8ee8b6a67eba7cb5c3f24d59889ae7988bb22bbc81b93ba79e423fc6db2e2c",
+      "packaged_sha256": "5e8ee8b6a67eba7cb5c3f24d59889ae7988bb22bbc81b93ba79e423fc6db2e2c",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/paper_batch/__init__.py",
+      "original_frozen_sha256": "5ec3341f548a42e5c1057cf51c1f6411a05e2261d01be1972351af82095f49c5",
+      "input_snapshot_sha256": "5ec3341f548a42e5c1057cf51c1f6411a05e2261d01be1972351af82095f49c5",
+      "packaged_sha256": "5ec3341f548a42e5c1057cf51c1f6411a05e2261d01be1972351af82095f49c5",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/paper_batch/generator.py",
+      "original_frozen_sha256": "dc24b13d41f540835bbebbfbd8885ad07ea78ebc645d7250668f70b9ef93ca56",
+      "input_snapshot_sha256": "dc24b13d41f540835bbebbfbd8885ad07ea78ebc645d7250668f70b9ef93ca56",
+      "packaged_sha256": "dc24b13d41f540835bbebbfbd8885ad07ea78ebc645d7250668f70b9ef93ca56",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/reviewer_validation/__init__.py",
+      "original_frozen_sha256": "452bb3a518639a95d0d6c19ddd73776504c7ff4eb34455953d14a0a291ddf1ea",
+      "input_snapshot_sha256": "452bb3a518639a95d0d6c19ddd73776504c7ff4eb34455953d14a0a291ddf1ea",
+      "packaged_sha256": "452bb3a518639a95d0d6c19ddd73776504c7ff4eb34455953d14a0a291ddf1ea",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/reviewer_validation/domain.py",
+      "original_frozen_sha256": "e390d0278f30bdbdfae7da812f4fbee6ce2aa091a90d6f5ff1f062058c64b6b5",
+      "input_snapshot_sha256": "e390d0278f30bdbdfae7da812f4fbee6ce2aa091a90d6f5ff1f062058c64b6b5",
+      "packaged_sha256": "e390d0278f30bdbdfae7da812f4fbee6ce2aa091a90d6f5ff1f062058c64b6b5",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/scripts/run_innovation_stage2.py",
+      "original_frozen_sha256": "d37f8d5a745c0786572e9e5c109b68accc4a04d51bceac48a8d2700b787a6028",
+      "input_snapshot_sha256": "d37f8d5a745c0786572e9e5c109b68accc4a04d51bceac48a8d2700b787a6028",
+      "packaged_sha256": "d37f8d5a745c0786572e9e5c109b68accc4a04d51bceac48a8d2700b787a6028",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/src/__init__.py",
+      "original_frozen_sha256": "bdec4c01332ca59e99d9ff83644e6dfc67ac94c1aa696b51b986af8d5b2dd2e7",
+      "input_snapshot_sha256": "bdec4c01332ca59e99d9ff83644e6dfc67ac94c1aa696b51b986af8d5b2dd2e7",
+      "packaged_sha256": "bdec4c01332ca59e99d9ff83644e6dfc67ac94c1aa696b51b986af8d5b2dd2e7",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/src/local_inference/__init__.py",
+      "original_frozen_sha256": "f14fea01c0bce60b584b199fb321e24692feb1e5dac7023a2f04408bbb2d2734",
+      "input_snapshot_sha256": "f14fea01c0bce60b584b199fb321e24692feb1e5dac7023a2f04408bbb2d2734",
+      "packaged_sha256": "f14fea01c0bce60b584b199fb321e24692feb1e5dac7023a2f04408bbb2d2734",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/src/local_inference/artifacts.py",
+      "original_frozen_sha256": "38680fc71f445e3ba40bbce070b1cc872aa1bc7a104f62bc222cdbacb95cab45",
+      "input_snapshot_sha256": "38680fc71f445e3ba40bbce070b1cc872aa1bc7a104f62bc222cdbacb95cab45",
+      "packaged_sha256": "38680fc71f445e3ba40bbce070b1cc872aa1bc7a104f62bc222cdbacb95cab45",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/src/local_inference/server.py",
+      "original_frozen_sha256": "ba4bfdba9cc5f7790ca56de0cf7a84139e490f40fcf70bcd65e1a86bb9cb8b42",
+      "input_snapshot_sha256": "ba4bfdba9cc5f7790ca56de0cf7a84139e490f40fcf70bcd65e1a86bb9cb8b42",
+      "packaged_sha256": "ba4bfdba9cc5f7790ca56de0cf7a84139e490f40fcf70bcd65e1a86bb9cb8b42",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/src/utils/__init__.py",
+      "original_frozen_sha256": "6a6a39bc1a50dd0d3887621989c095bd04e6409af7c6738675f2d8dbeeee5d25",
+      "input_snapshot_sha256": "6a6a39bc1a50dd0d3887621989c095bd04e6409af7c6738675f2d8dbeeee5d25",
+      "packaged_sha256": "6a6a39bc1a50dd0d3887621989c095bd04e6409af7c6738675f2d8dbeeee5d25",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/src/utils/io.py",
+      "original_frozen_sha256": "8644be957f8b864113589b2cb2bb1d555a7c514c600ae193ab090e9b373e3c56",
+      "input_snapshot_sha256": "8644be957f8b864113589b2cb2bb1d555a7c514c600ae193ab090e9b373e3c56",
+      "packaged_sha256": "8644be957f8b864113589b2cb2bb1d555a7c514c600ae193ab090e9b373e3c56",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/revision_20261022/common.py",
+      "original_frozen_sha256": "0c9d3eecb095ba138db1377ef51f300ca5f248747bf5241d40f3a8373d14efa4",
+      "input_snapshot_sha256": "0c9d3eecb095ba138db1377ef51f300ca5f248747bf5241d40f3a8373d14efa4",
+      "packaged_sha256": "0c9d3eecb095ba138db1377ef51f300ca5f248747bf5241d40f3a8373d14efa4",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/revision_20261022/cpu_suite.py",
+      "original_frozen_sha256": "a5138874fc0e778fb58a9f01e80397239be0e1fd15a2e8745fa8dd5e76a6f404",
+      "input_snapshot_sha256": "a5138874fc0e778fb58a9f01e80397239be0e1fd15a2e8745fa8dd5e76a6f404",
+      "packaged_sha256": "a5138874fc0e778fb58a9f01e80397239be0e1fd15a2e8745fa8dd5e76a6f404",
+      "stages": [
+        "cpu"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/revision_20261022/operations.py",
+      "original_frozen_sha256": "c27ced8edf6f08d690bdda5583abac2c635ffb242f89428950bc1226c9dc5654",
+      "input_snapshot_sha256": "c27ced8edf6f08d690bdda5583abac2c635ffb242f89428950bc1226c9dc5654",
+      "packaged_sha256": "0da667319da400d912c66b66f12d6dfdccc78987862a8114a491feae1c1a76ac",
+      "stages": [
+        "cpu",
+        "language"
+      ],
+      "adaptation": "Removed unused session and handoff helpers; freeze and resource snapshot functions unchanged."
+    },
+    {
+      "path": "code/revision_20261022/language_analysis.py",
+      "original_frozen_sha256": "b06e35c194e6342e06b9ddf1d77993b22c375db4640c3b1a50c760ea21f10451",
+      "input_snapshot_sha256": "b06e35c194e6342e06b9ddf1d77993b22c375db4640c3b1a50c760ea21f10451",
+      "packaged_sha256": "b06e35c194e6342e06b9ddf1d77993b22c375db4640c3b1a50c760ea21f10451",
+      "stages": [
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/revision_20261022/language_cases.py",
+      "original_frozen_sha256": "548fa5a02c517e8e1ec4bcf8afa76c92c7daaff0aba4a6e84e134e0a77620b11",
+      "input_snapshot_sha256": "548fa5a02c517e8e1ec4bcf8afa76c92c7daaff0aba4a6e84e134e0a77620b11",
+      "packaged_sha256": "548fa5a02c517e8e1ec4bcf8afa76c92c7daaff0aba4a6e84e134e0a77620b11",
+      "stages": [
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/revision_20261022/language_interface.py",
+      "original_frozen_sha256": "a3658ca0470825de06c43b05c057c2a33737fde0af83edd42123630f2049febb",
+      "input_snapshot_sha256": "a3658ca0470825de06c43b05c057c2a33737fde0af83edd42123630f2049febb",
+      "packaged_sha256": "a3658ca0470825de06c43b05c057c2a33737fde0af83edd42123630f2049febb",
+      "stages": [
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/revision_20261022/language_prepare.py",
+      "original_frozen_sha256": "05a75fa596caa2d79230cfeda4daa54ad6d9c442466889bd606f674bd024405f",
+      "input_snapshot_sha256": "05a75fa596caa2d79230cfeda4daa54ad6d9c442466889bd606f674bd024405f",
+      "packaged_sha256": "05a75fa596caa2d79230cfeda4daa54ad6d9c442466889bd606f674bd024405f",
+      "stages": [
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/revision_20261022/model_worker.py",
+      "original_frozen_sha256": "38de102a2fed5d5731681754baf420522453c6cf50ec3329f5075d584c64bd1d",
+      "input_snapshot_sha256": "38c9d621f992d6325f97456c1c5e1abb492d0178893c641b37433b01972a819f",
+      "packaged_sha256": "e46c8198b392bfe2784e759f132fb09e3edb95a04fd847f80e341b90aab4ea51",
+      "stages": [
+        "language"
+      ],
+      "adaptation": "Local model paths read from environment variables; missing-path check added. Sampling, seeds and inference settings unchanged."
+    },
+    {
+      "path": "code/revision_20261022/runtime_checks.py",
+      "original_frozen_sha256": "e51db31e915626be88b90fd0ac2b2593b04b3f7f2fdd55e545bc89d218eba133",
+      "input_snapshot_sha256": "e51db31e915626be88b90fd0ac2b2593b04b3f7f2fdd55e545bc89d218eba133",
+      "packaged_sha256": "e51db31e915626be88b90fd0ac2b2593b04b3f7f2fdd55e545bc89d218eba133",
+      "stages": [
+        "language"
+      ],
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "code/revision_20261022/validation.py",
+      "original_frozen_sha256": "8f533dd28fdbbfef72720092a4347195bf2701913d5140ef38905c7214ebeecc",
+      "input_snapshot_sha256": "8f533dd28fdbbfef72720092a4347195bf2701913d5140ef38905c7214ebeecc",
+      "packaged_sha256": "8f533dd28fdbbfef72720092a4347195bf2701913d5140ef38905c7214ebeecc",
+      "stages": [
+        "language"
+      ],
+      "adaptation": "unchanged"
+    }
+  ]
+}

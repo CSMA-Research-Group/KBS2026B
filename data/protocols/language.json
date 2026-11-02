@@ -1,0 +1,100 @@
+{
+  "frozen_at": "2026-10-22T11:47:19.269807+00:00",
+  "protocol": {
+    "analysis": {
+      "alphas": [
+        0.01,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "calibration": "128 independent primary worlds per domain/model/representation/k, max nonconformity per world",
+      "decision_score": "same max restricted to physically feasible G; empty maximum is zero",
+      "envelope": "L={g:p(g)>q}; U={g:p(g)>=1-q}; decision rules only inspect queried physical states",
+      "invalid": "invalid draws contribute an empty proposal to scores; if every draw invalid, model policies ABSTAIN",
+      "k_primary": [
+        1,
+        2,
+        3
+      ],
+      "main_alpha": 0.05,
+      "multiplicity": "Holm across 32 prespecified tests: 2 models x 2 domains x 2 representations x 4 endpoints",
+      "paired_primary": "decision calibrated versus semantic calibrated, alpha=.05,k=3, full query budget; domains/models/representations kept separate",
+      "quantile": "ceil((n+1)*(1-alpha)) order statistic, infinity if rank > n; conservatively clamp q >= 0.5",
+      "query_budgets": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        null
+      ],
+      "schema": "decision-relevant-envelope-v1",
+      "scope": "marginal per-world error bound under exchangeability, not error conditional on execution; synthetic language only",
+      "semantic_score": "max(1-p(g) for g in S, p(g) for g in G minus S)"
+    },
+    "data": {
+      "no_human_annotation": true,
+      "no_semantic_runtime_filter": true,
+      "primary_distribution": "independent RNG seeds; nuisance density, instruction style, and 0/1/2 intended feasible base types sampled per cluster",
+      "seed": 2026102213,
+      "splits": {
+        "calibration": 128,
+        "development": 8,
+        "test": 512
+      },
+      "styles": [
+        "color_paraphrase",
+        "logic_reordering",
+        "spatial_or_requirement",
+        "operational_near_or_requirement",
+        "speaker_reference"
+      ],
+      "variants": "one iid primary per cluster; test first 64 and calibration first 32 have paired +F/+I diagnostic scenes"
+    },
+    "environment": {
+      "jsonschema": "4.26.0",
+      "lm-format-enforcer": "0.11.3",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "tokenizers": "0.22.2",
+      "torch": "2.12.0",
+      "transformers": "4.57.1"
+    },
+    "gate": "engineering correctness and syntactic smoke only; no semantic accuracy qualification",
+    "inference": {
+      "attention": "sdpa",
+      "batch_size": 4,
+      "constraint": "lm-format-enforcer 0.11.3 JSON schema; no semantic filtering",
+      "failure_policy": "retain invalid/truncated/error; do not automatically retry dispatched requests",
+      "max_new_tokens": 2048,
+      "precision": "float16",
+      "primary_samples": 3,
+      "primary_temperature": 0.7,
+      "sweep_samples": 20,
+      "sweep_test_clusters_per_domain": 32,
+      "temperature_probe": [
+        0.0,
+        1.0
+      ],
+      "temperature_probe_clusters_per_domain": 32,
+      "thinking": "Qwen3 native thinking prefix, up to 2048 reasoning tokens then constrained JSON answer; forced closing at cap recorded",
+      "thinking_test_clusters_per_domain": 32,
+      "thinking_tokens": 2048,
+      "times": "shared resource wall time and token counts, not exclusive speed comparisons",
+      "top_k": 20,
+      "top_p": 0.95
+    },
+    "models": [
+      "qwen3_8b",
+      "gemma2_9b"
+    ]
+  },
+  "registration": "local timestamp and SHA-256 only; not public preregistration",
+  "stage": "language",
+  "original_manifest_sha256": "fdaef42461a14a768247b0dabba2aeff15d781984eecdcd1309f869cd4a585d2"
+}

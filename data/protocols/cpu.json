@@ -1,0 +1,66 @@
+{
+  "frozen_at": "2026-10-22T11:24:17.617731+00:00",
+  "protocol": {
+    "budget_quantiles": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9
+    ],
+    "calibration_layouts": 64,
+    "candidate_counts": [
+      16,
+      64,
+      256,
+      1024
+    ],
+    "cost_keys_sum": [
+      "candidate_materializations",
+      "family_queries",
+      "heuristic_queries",
+      "geometry_queries",
+      "geometry_cell_queries",
+      "concrete_expansions",
+      "abstract_expansions",
+      "certificate_builds",
+      "certificate_checks",
+      "certificate_check_cell_queries",
+      "concrete_closure_checks",
+      "concrete_check_cell_queries",
+      "witness_checks",
+      "witness_check_cell_queries"
+    ],
+    "feasible_strata": [
+      0,
+      1,
+      2
+    ],
+    "methods": [
+      "CATALOG_SHARED_GBFS",
+      "LAZY_SHARED_GBFS",
+      "LAZY_CERT_FIRST",
+      "DECISION_SCHEDULER",
+      "ABLATION_EAGER",
+      "ABLATION_NO_CERT",
+      "ABLATION_FIXED_ORDER"
+    ],
+    "obstructions": [
+      "shared",
+      "unshared"
+    ],
+    "primary": "cost-to-checked-decision CDF, exact decisions and all cost components; layout is pairing/cluster unit",
+    "schema": "ccfa-fresh-layout-cost-v1",
+    "scope": "replication and stress test of existing solvers, not new algorithm or independent timing claim",
+    "seed": 2026102207,
+    "settings": {
+      "initial_witness_expansions": 64,
+      "near_goal_distance": 8,
+      "quantum_expansions": 32
+    },
+    "test_layouts": 512
+  },
+  "registration": "local timestamp and SHA-256 only; not public preregistration",
+  "stage": "cpu",
+  "original_manifest_sha256": "6017816000a62780863078028e8c85480aa919156220b4fac92d2f8153c06ad6"
+}

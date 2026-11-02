@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "batch_snapshot": "2026-10-22",
+  "packages": [
+    {
+      "name": "cpu",
+      "path": "data/archives/cpu.tar.gz",
+      "download_url": "https://1drv.ms/u/c/866abf2c283fa755/IQA0BOpEsxffQ44XQJwWZFA-AW8m8VvyptENUzLVy_HHPJE?e=vzhfpA",
+      "sha256": "532c6d624e53041d92ec45f705e6d19c4cc008671b8b4064dbc03b262b4cb17b",
+      "bytes": 127791455,
+      "files": 19014,
+      "unpacked_bytes": 284921414,
+      "prefix": "main/cpu"
+    },
+    {
+      "name": "language",
+      "path": "data/archives/language.tar.gz",
+      "download_url": "https://1drv.ms/u/c/866abf2c283fa755/IQB6p9EXt_2lTLZpYNe2mkv1AWyYKWFD0-NGOYF6vA-Z_7E?e=PUth3s",
+      "sha256": "a741e402402f482ec773e162732f5e34ee20e7abfe9aea6eb6ba3c5e8e274d02",
+      "bytes": 346437709,
+      "files": 88381,
+      "unpacked_bytes": 432933269,
+      "prefix": "main/language"
+    },
+    {
+      "name": "experiment_h",
+      "path": "data/archives/experiment_h.tar.gz",
+      "sha256": "9dc9af2bd87a32cb44d20ef4c56f6ea58eeb66d94d959025c9c47e8f85e4f437",
+      "bytes": 1653242,
+      "files": 2562,
+      "unpacked_bytes": 5619348,
+      "prefix": "experiment_h"
+    },
+    {
+      "name": "s1",
+      "path": "data/archives/s1.tar.gz",
+      "sha256": "5b14cb9cc5a9e1ccc96dbc21930093efdeed976c3fa6db09a32c3b7066194dea",
+      "bytes": 15414636,
+      "files": 2436,
+      "unpacked_bytes": 16000314,
+      "prefix": "s1"
+    }
+  ],
+  "members": {
+    "path": "data/archives/members.jsonl.gz",
+    "sha256": "8330aa6131c26f7345db81afe0436ab40dfb15571c71df771666829b1235531c"
+  }
+}

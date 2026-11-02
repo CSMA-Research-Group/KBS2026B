@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "source_sha256": "b684fbb7e2a15ab5dc3772d3f07775a9946d0298176ce4580de180326a4ed828",
+  "points": 14336,
+  "schematic_bfs_checks": [
+    {
+      "opening": false,
+      "a_reaches_target": true,
+      "b_reaches_target": false
+    },
+    {
+      "opening": true,
+      "a_reaches_target": true,
+      "b_reaches_target": true
+    }
+  ],
+  "figures": {
+    "running_scene.pdf": "e23d6d1c80f467bb0c5f175c244ac6ec1c74d22044b821f7bfe2ae049da967bc",
+    "cost_to_decision.pdf": "28f0a975aafa6e5eb158bfac6fadb0dd1ac7a4666c864d20d4529e23ef652cc6"
+  },
+  "source_csv": "main/cpu/analysis_20261022T113711.314247+0000/costs_and_decisions.csv"
+}

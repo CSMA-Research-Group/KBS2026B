@@ -1,0 +1,89 @@
+{
+  "at": "2026-10-22T11:44:23.686656+00:00",
+  "development_roundtrip": [
+    {
+      "case_id": "carrying_development_0000_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "carrying_development_0001_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "carrying_development_0002_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "carrying_development_0003_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "carrying_development_0004_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "carrying_development_0005_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "carrying_development_0006_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "carrying_development_0007_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "workflow_development_0000_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "workflow_development_0001_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "workflow_development_0002_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "workflow_development_0003_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "workflow_development_0004_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "workflow_development_0005_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "workflow_development_0006_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    },
+    {
+      "case_id": "workflow_development_0007_primary",
+      "denotation_match": true,
+      "physical_reference_complete": true
+    }
+  ],
+  "finite_completion_policy_checks": 6480,
+  "independent_physical_crosschecks": 78,
+  "model_accuracy_not_a_gate": true,
+  "status": "PASS"
+}

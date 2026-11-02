@@ -1,0 +1,7 @@
+{
+ "experiment": "E5_shared_certificates",
+ "rows": 3464,
+ "seconds": 315.7,
+ "all_decisions_equal_ind": true,
+ "all_decisions_equal_gbfs": true
+}

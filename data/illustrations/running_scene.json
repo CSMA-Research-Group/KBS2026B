@@ -1,0 +1,22 @@
+{
+  "kind": "explanatory schematic, not an experimental observation",
+  "grid": [
+    6,
+    4
+  ],
+  "wall_x": 3,
+  "optional_opening_y": 2,
+  "a": [
+    1,
+    1
+  ],
+  "b": [
+    4,
+    2
+  ],
+  "target": [
+    0,
+    1
+  ],
+  "physics_scope": "four-neighbour point reachability, no cone geometry model"
+}

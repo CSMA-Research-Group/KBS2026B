@@ -1,0 +1,6 @@
+# Validated with Python 3.13.18. GPU inference uses its separate frozen environment.
+numpy==2.2.6
+matplotlib==3.10.3
+scipy==1.17.1
+pandas==2.2.3
+jsonschema==4.26.0
